@@ -1,0 +1,236 @@
+congfig by k1ng
+
+// USTAWIENIA MYSZKI
+// DPI 800
+sensitivity "0.85"
+zoom_sensitivity_ratio_mouse "1"
+
+
+//DWA RAZY Q
+alias "+switch" "lastinv"
+alias "-switch" "lastinv"
+bind "q" "+switch"
+
+//SKRÓTY KOMEND
+alias "q" "quit"
+alias "bk" "bot_kick"
+alias "dc" "disconnect"
+
+//POKAZYWANIE SOJUSZNIKÓW PRZEZ ŚCIANY
+alias whon "+cl_show_team_equipment;bind "o" whoff"
+alias whoff "-cl_show_team_equipment;bind "o" whon"
+bind "o" whon
+
+
+//CELOWNIK DO RZUCANIA GRANATÓW
+alias "-crosshairsmoke" "cl_crosshairsize 1 ;"
+alias "+crosshairsmoke" "cl_crosshairsize 1337;"
+bind "alt" "+crosshairsmoke"
+
+
+//NETGRAPH 
+net_graphheight "0"
+net_graphproportionalfont "0.05"
+net_graph "1"
+
+
+//BIND NA BRONIE KLAWIATURA NUMERYCZNA
+bind "kp_plus" "buy awp;"
+bind "pgdn" "buy hegrenade;"
+bind "pgup" "buy molotov; buy incgrenade;"
+bind "home" "buy smokegrenade;"
+bind "ins" "buy flashbang;"
+bind "end" "buy decoy;"
+bind "kp_pgdn" "buy deagle;"
+bind "kp_rightarrow" "buy vest;"
+bind "kp_pgup" "buy defuser;"
+bind "kp_enter" "buy ak47; buy m4a1;"
+bind "kp_del" "buy vesthelm;"
+bind "kp_downarrow" "buy sg556; buy aug;"
+bind "kp_end" "buy ssg08;"
+bind "kp_5" "buy p250;"
+bind "kp_leftarrow" "buy tec9; buy fiveseven;"
+
+
+
+//CELOWNIK
+cl_crosshair_drawoutline "1"
+cl_crosshair_dynamic_maxdist_splitratio "0"
+cl_crosshair_dynamic_splitalpha_innermod "1"
+cl_crosshair_dynamic_splitalpha_outermod "0.300000"
+cl_crosshair_dynamic_splitdist "3.5"
+cl_crosshair_friendly_warning "1"
+cl_crosshair_outlinethickness "1"
+cl_crosshair_sniper_show_normal_inaccuracy "0"
+cl_crosshair_sniper_width "5"
+cl_crosshair_t "0"
+cl_crosshairalpha "255.000000"
+cl_crosshaircolor "4"
+cl_crosshaircolor_b "50"
+cl_crosshaircolor_g "250"
+cl_crosshaircolor_r "50"
+cl_crosshairdot "0"
+cl_crosshairgap "-3"
+cl_crosshairgap_useweaponvalue "0"
+cl_crosshairsize "1"
+cl_crosshairstyle "4"
+cl_crosshairthickness "1.15"
+cl_crosshairusealpha "1"
+cl_fixedcrosshairgap "-3"
+
+
+//VIEVMODEL
+cl_viewmodel_shift_left_amt "0.500000"
+cl_viewmodel_shift_right_amt "0.250000"
+viewmodel_fov "68"
+viewmodel_offset_x "2.500000"
+viewmodel_offset_y "0"
+viewmodel_offset_z "-1.500000"
+viewmodel_presetpos "0"
+viewmodel_recoil "1.0"
+cl_bob_lower_amt "5.000000"
+cl_bobamt_lat "0.100000"
+cl_bobamt_vert "0.100000"
+cl_bobcycle "0.98"
+
+
+//HUD
+cl_hud_background_alpha "0.5"
+cl_hud_bomb_under_radar "1"
+cl_hud_color "7"
+cl_hud_healthammo_style "0"
+cl_hud_playercount_pos "0"
+cl_hud_playercount_showcount "0"
+cl_hud_radar_scale "1"
+hud_scaling "0.703901"
+hud_showtargetid "1"
+hud_takesshots "0"
+net_graph "1"
+net_graphpos "1"
+net_graphproportionalfont "0"
+cl_radar_always_centered "0"
+cl_radar_square_with_scoreboard "1"
+cl_teammate_colors_show "1"
+cl_hud_bomb_under_radar "1"
+cl_radar_rotate "1"
+cl_radar_icon_scale_min "0.5"
+cl_hud_radar_scale "0.7"
+cl_radar_scale "0.4"
+
+
+
+//KOMENDY NA WIECEJ FPS
+cl_forcepreload "0"
+r_dynamic "0"
+muzzleflash_light "0"
+snd_debug_sleep 
+r_drawtracers_firstperson "0"
+m_customaccel "0"
+cl_showhelp "0"
+gameinstructor_enable "1"
+
+
+//USTAWIENIA DZWIEKU
+volume "0.07"
+snd_roundstart_volume "0"
+snd_roundend_volume "0.07"
+snd_deathcamera_volume "0.04"
+snd_menumusic_volume "0"
+snd_tensecondwarning_volume "0.10"
+snd_dzmusic_volume "0"
+snd_mapobjective_volume "0"
+
+
+// POZOSTAŁE KOMENDY
+cl_teamid_overhead_mode "2"
+cl_use_opens_buy_menu "0"
+cl_dm_buyrandomweapons "0"
+cl_disablefreezecam "1"
+fps_max "299"
+func_break_max_pieces "0"
+alias "s" "status"
+fps_max_menu "400"
+
+
+// Szybkie dawanie broni
+alias "ak" "give weapon_ak47"
+alias "m4" "give weapon_m4a1"
+alias "m4s" "give weapon_m4a1_silencer"
+alias "galil" "give weapon_galilar"
+alias "famas" "give weapon_famas"
+alias "aug" "give weapon_aug"
+alias "sg" "give weapon_sg556"
+alias "tec" "give weapon_tec9"
+alias "fiveseven" "give weapon_fiveseven"
+alias "cz" "give weapon_cz75a"
+alias "beretki" "give weapon_elite"
+alias "dual" "give weapon_elite"
+alias "p2000" "give weapon_hkp2000"
+alias "usp" "give weapon_usp_silencer"
+alias "glock" "give weapon_glock"
+alias "deagle" "give weapon_deagle"
+alias "p250" "give weapon_p250"
+alias "mp9" "give weapon_mp9"
+alias "mac10" "give weapon_mac10"
+alias "uzi" "give weapon_mac10"
+alias "mp7" "give weapon_mp7"
+alias "bizon" "give weapon_bizon"
+alias "ump" "give weapon_ump45"
+alias "mag7" "give weapon_mag7"
+alias "swag7" "give weapon_mag7"
+alias "mp5" "give weapon_mp5sd"
+alias "sawedoff" "give weapon_sawedoff"
+alias "sawnoff" "give weapon_sawedoff"
+alias "soff" "give weapon_sawedoff"
+alias "sawed" "give weapon_sawedoff"
+alias "sawn" "give weapon_sawedoff"
+alias "nova" "give weapon_nova"
+alias "xm" "give weapon_xm1014"
+alias "flash" "give weapon_flashbang"
+alias "he" "give weapon_hegrenade"
+alias "smoke" "give weapon_smokegrenade"
+alias "molo" "give weapon_molotov"
+alias "decoy" "give weapon_decoy"
+alias "snowball" "give weapon_snowball"
+alias "tag" "give weapon_tagrenade"
+
+
+// MAPY
+alias "mirage" "map de_mirage"
+alias "nuke" "map de_nuke"
+alias "aztec" "map de_aztec "
+alias "cache" "map de_cache"
+alias "cobble" "map de_cobble"
+alias "dust" "map de_dust"
+alias "dust2" "map de_dust2"
+alias "inferno" "map de_inferno"
+alias "overpass" "map de_overpass"
+alias "season" "map de_season"
+alias "train" "map de_train"
+alias "vertigo" "map de_vertigo"
+
+
+//KOMENDY NA GRANATY ITP
+bind "r" "+reload; r_cleardecals"
+bind "s" "+back; r_cleardecals"
+bind "a" "+moveleft; r_cleardecals"
+bind "d" "+moveright; r_cleardecals"
+bind "w" "+forward; r_cleardecals"
+bind "r" "+reload; r_cleardecals"
+bind "c" "slot12"
+bind "v" "radio3"
+bind "x" "slot7"
+bind "MOUSE5" "slot8"
+bind "MWHEELDOWN" "+jump"
+
+
+//ROZDZIALKA
+resolution "1280x1024"
+cl_righthand "0"
+
+
+
+host_writeconfig
+
+
+
